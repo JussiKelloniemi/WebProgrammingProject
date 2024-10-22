@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="js/script.js" defer></script>
+    <script src="https://unpkg.com/frappe-charts@1.6.1/dist/frappe-charts.min.umd.js"></script>
+    <title>Project</title>
+</head>
+<body>
+    <form id="search-form">
+        <input type="text" id="search-location" placeholder="Location">
+        <button type="submit" id="search-button">Search</button>
+    </form> 
+    <div id="weather-container">
+        <div id="current-weather">
+        </div>
+        <br>
+        <div id="weather-24h">
+        </div>
+        <br>
+    </div>
+    <div id="weather-7d">
+        <div id="weather-7d-container"></div>
+    </div>
+</body>
+</html>
