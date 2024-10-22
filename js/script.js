@@ -1,7 +1,7 @@
 // API key: 7e3c209cb4470d0a6a40fe3f722a2ee4
 // Coordinates API call: http://api.openweathermap.org/geo/1.0/direct?q={city name},{state code},{country code}&limit={limit}&appid={API key}
 // Weather API call: https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={API key}
-// Weather 7 Day API call: https://api.open-meteo.com/v1/forecast?latitude=52.52&longitude=13.41&daily=weather_code,temperature_2m_max,temperature_2m_min&timezone=Europe%2FMoscow
+// Weather 7 Day API call: https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&daily=temperature_2m_max,temperature_2m_min,rain_sum,wind_speed_10m_max&timezone=Europe%2FMoscow&forecast_days=8
 
 const getLocation = async () => {
     event.preventDefault();
